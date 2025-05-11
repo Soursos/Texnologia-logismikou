@@ -1,0 +1,253 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="PJ7NiKoOUGl5bO_mfkMv">
+    <mxGraphModel dx="3737" dy="2381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="-40" width="30" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-2" value="Simple Reader" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-875" y="-70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-3" value="SimpleReaderHomepage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-40" width="190" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-3">
+          <mxGeometry x="90" y="90" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-3">
+          <mxGeometry x="90" y="870" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-65" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-3">
+          <mxGeometry x="90" y="1230" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-8" value="clicks &quot;Edit Profile Information&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-3">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810" y="90" as="sourcePoint" />
+            <mxPoint x="-660" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-9" value="retrieveProfile()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-11">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-590" y="120" as="sourcePoint" />
+            <mxPoint x="-375" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-10" value="SimpleReaderController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-40" width="190" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-10">
+          <mxGeometry x="90" y="140" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-12" value="SimpleReaderService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-40" width="190" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-12">
+          <mxGeometry x="90" y="170" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-56" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-12">
+          <mxGeometry x="90" y="1040" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-14" value="retrieveProfile()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-12">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-340" y="150" as="sourcePoint" />
+            <mxPoint x="-100" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-15" value="SimpleReaderMapper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-40" width="190" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-15">
+          <mxGeometry x="90" y="200" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-59" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-15">
+          <mxGeometry x="90" y="1060" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-17" value="DBManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-40" width="100" height="2032" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-17">
+          <mxGeometry x="45" y="210" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-60" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-17">
+          <mxGeometry x="45" y="1090" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-21" value="findById()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-16">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-70" y="180" as="sourcePoint" />
+            <mxPoint x="170" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-22" value="find SimpleReader" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-18">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="180" y="210" as="sourcePoint" />
+            <mxPoint x="390" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-23" value="return SimpleReader" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="180" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-24" value="return SimpleReader" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.5" y="280" as="sourcePoint" />
+            <mxPoint x="-60" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-25" value="return SimpleReader" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80.5" y="300" as="sourcePoint" />
+            <mxPoint x="-310" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-26" value="EditProfileInformation" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-40" width="170" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-26">
+          <mxGeometry x="80" y="360" width="10" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-26">
+          <mxGeometry x="80" y="660" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-28" value="call" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-26">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-340" y="350" as="sourcePoint" />
+            <mxPoint x="-100" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-29" value="fill correct the form &amp;amp; click &quot;Save Profile&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-816.0384615384614" y="450" as="sourcePoint" />
+            <mxPoint x="524.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-30" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="390" width="1870" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-31" value="Fill correct the form" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="410" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-34" value="Fill incorrect the form" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="570" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-35" value="fill incorrect the form &amp;amp; click &quot;Save Profile&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-819.9984615384615" y="640" as="sourcePoint" />
+            <mxPoint x="520.54" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="460" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-37" value="profileChanged" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-40" width="120" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-45" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-37">
+          <mxGeometry x="55" y="1000" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-39" value="WrongProfileChanges" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-40" width="160" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="VBGsp8PeskBaG6wRzSTn-39">
+          <mxGeometry x="75" y="680" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-41" value="checkValidation()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="520" y="487" as="sourcePoint" />
+            <mxPoint x="-340" y="487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-46" value="call" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-45">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-339.75000000000045" y="975.4100000000001" as="sourcePoint" />
+            <mxPoint x="689.75" y="975.4100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-47" value="call" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="530.0000000000005" y="666" as="sourcePoint" />
+            <mxPoint x="879.4999999999995" y="666" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-48" value="Cancelation of edit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="760" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-49" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="520" y="790" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-50" value="fill correct the form &amp;amp; click &quot;Cancel&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810.5384615384614" y="808.82" as="sourcePoint" />
+            <mxPoint x="520" y="808.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-52" value="call" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="520" y="852" as="sourcePoint" />
+            <mxPoint x="-590.0000000000005" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-53" value="fill correct the form &amp;amp; click &quot;Save Profile&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-820.5384615384614" y="700" as="sourcePoint" />
+            <mxPoint x="520" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-55" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="VBGsp8PeskBaG6wRzSTn-54">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-350" y="975.1700000000001" as="sourcePoint" />
+            <mxPoint x="689.5" y="975.1700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-54" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="950" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-57" value="save()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-340" y="1019.29" as="sourcePoint" />
+            <mxPoint x="-75" y="1019.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-58" value="save()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-70" y="1050" as="sourcePoint" />
+            <mxPoint x="170" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-61" value="save SimpleReader" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="180" y="1090" as="sourcePoint" />
+            <mxPoint x="365" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-62" value="return SimpleReader" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1130" as="sourcePoint" />
+            <mxPoint x="180" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-63" value="return SimpleReader" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.99999999999955" y="1157" as="sourcePoint" />
+            <mxPoint x="-70.00000000000045" y="1157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-64" value="return SimpleReader" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80.00000000000045" y="1176" as="sourcePoint" />
+            <mxPoint x="-340.00000000000045" y="1176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VBGsp8PeskBaG6wRzSTn-66" value="return SimpleReader&amp;nbsp;&lt;div&gt;updated information&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350.00000000000045" y="1215" as="sourcePoint" />
+            <mxPoint x="-595.9285714285711" y="1215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
