@@ -1,0 +1,336 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram name="Page-1" id="-NQbQPQcHkvLLhP3jl6W">
+    <mxGraphModel dx="2797" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="-40" width="30" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-2" value="Collector" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-855" y="-70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-3" value="MyRequests" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="-40" width="100" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-3">
+          <mxGeometry x="45" y="70" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-5" value="CollectorController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="-40" width="150" height="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-5">
+          <mxGeometry x="70" y="100" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-5">
+          <mxGeometry x="70" y="1330" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-5">
+          <mxGeometry x="70" y="390" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-14" value="CollectorService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-40" width="130" height="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-14">
+          <mxGeometry x="60" y="140" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-70" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-14">
+          <mxGeometry x="60" y="1400" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-78" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-14">
+          <mxGeometry x="60" y="1530" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-17" value="SpecialRequestsMappper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-40" width="190" height="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-17">
+          <mxGeometry x="90" y="170" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-72" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-17">
+          <mxGeometry x="90" y="1420" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-19" value="DBManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-40" width="100" height="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-19">
+          <mxGeometry x="45" y="190" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-75" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-19">
+          <mxGeometry x="45" y="1440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-21" value="clicks &quot;Create a Special Request&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810" y="70" as="sourcePoint" />
+            <mxPoint x="-595" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-22" value="showSpecialRequests()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-5">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-590" y="100" as="sourcePoint" />
+            <mxPoint x="-350" y="100" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-23" value="retrieveSpecialRequests()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-15">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-400" y="130" as="sourcePoint" />
+            <mxPoint x="-215" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-24" value="findSpecialRequests()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-18">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-200" y="160" as="sourcePoint" />
+            <mxPoint x="-10" y="160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-25" value="find Special Requests" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-20">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-20" y="180" as="sourcePoint" />
+            <mxPoint x="150" y="180" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-26" value="return special requests" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontStyle=2;fontSize=13;" edge="1" parent="1">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
+            <mxPoint x="159.49999999999955" y="210" as="sourcePoint" />
+            <mxPoint x="-20.000000000000455" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-27" value="return special requests" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontStyle=2;fontSize=13;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30.500000000000455" y="230" as="sourcePoint" />
+            <mxPoint x="-210.00000000000045" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-28" value="return special requests" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontStyle=2;fontSize=13;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200.50000000000045" y="250" as="sourcePoint" />
+            <mxPoint x="-370" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-29" value="call" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-31">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-400" y="286" as="sourcePoint" />
+            <mxPoint x="304.5" y="286" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-30" value="SpecialRequests" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-40" width="130" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-30">
+          <mxGeometry x="60" y="300" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-32" value="clicks &quot;New Special Request&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-820" y="335" as="sourcePoint" />
+            <mxPoint x="304.5" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-33" value="showFormSpecialRequest()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="304.5" y="369" as="sourcePoint" />
+            <mxPoint x="-400" y="369" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-34" value="SpecialRequestForm" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-40" width="140" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-34">
+          <mxGeometry x="65" y="455" width="10" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-36" value="SpecialRequest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-40" width="130" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-36">
+          <mxGeometry x="60" y="420" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-38" value="create" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontStyle=2;fontSize=13;" edge="1" parent="1">
+          <mxGeometry x="-0.0021" relative="1" as="geometry">
+            <mxPoint x="-400" y="400" as="sourcePoint" />
+            <mxPoint x="620" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-39" value="call" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-34">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-400" y="430" as="sourcePoint" />
+            <mxPoint x="300" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-40" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="450" width="1600" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-41" value="Fill correct the form of the Special Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="490" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-43" value="fill correct the form &amp;amp; clicks &quot;Post Special Request&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-35">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810" y="550" as="sourcePoint" />
+            <mxPoint x="314.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="570" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-45" value="submitSpecialRequest()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-44">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="464.5" y="600" as="sourcePoint" />
+            <mxPoint x="-240" y="600" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-46" value="Fill incorrect the form of the Special Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="640" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="465" y="680" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-48" value="fill incorrect the form &amp;amp; clicks &quot;Post Special Request&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810" y="704.38" as="sourcePoint" />
+            <mxPoint x="465" y="704.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-49" value="send error message" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="500" y="750" />
+            </Array>
+            <mxPoint x="475" y="750.0588235294122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-50" value="fill correct the form &amp;amp; clicks &quot;Post Special Request&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810" y="780" as="sourcePoint" />
+            <mxPoint x="465" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-51" value="Fill correct the form of the Special Request &amp;amp; click Cancel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="920" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-52" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="465" y="950" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-54" value="fill correct the form &amp;amp; clicks &quot;Cancel&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810" y="980" as="sourcePoint" />
+            <mxPoint x="465" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-55" value="submitSpecialRequest()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="465" y="830" as="sourcePoint" />
+            <mxPoint x="-399.5" y="830" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-56" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="810" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-57" value="call" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="465" y="1011" as="sourcePoint" />
+            <mxPoint x="310" y="1011" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-58" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="990" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-59" value="Duplicate Special request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1060" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-60" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1100" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-62" value="fill the form with a duplicate special book &amp;amp; clicks &quot;Post Special Request&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810" y="1120" as="sourcePoint" />
+            <mxPoint x="465" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-63" value="send notification message" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="1140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="505" y="1170" />
+            </Array>
+            <mxPoint x="480" y="1170.0588235294122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-64" value="fill correct the form with another book &amp;amp; clicks &quot;Post Special Request&quot;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-810" y="1200" as="sourcePoint" />
+            <mxPoint x="465" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-65" value="submitSpecialRequest()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="465" y="1230" as="sourcePoint" />
+            <mxPoint x="-399.5" y="1230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-66" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1210" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-67" value="checkRequestValidation()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=13;fontStyle=2" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-400" y="1300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-370" y="1330" />
+            </Array>
+            <mxPoint x="-395" y="1330.0588235294122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-68" value="SpecialRequestCompleted" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-40" width="190" height="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-76" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#000000;fillColor=#dae8fc;" vertex="1" parent="IZD-_2Gyi8pyLNKkeNc0-68">
+          <mxGeometry x="90" y="1490" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-71" value="saveSpecialRequests()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-400" y="1380" as="sourcePoint" />
+            <mxPoint x="-210" y="1380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-73" value="save()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" source="IZD-_2Gyi8pyLNKkeNc0-70" target="IZD-_2Gyi8pyLNKkeNc0-72">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-210" y="1420" as="sourcePoint" />
+            <mxPoint x="-20" y="1420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-74" value="save Special Request" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1" target="IZD-_2Gyi8pyLNKkeNc0-75">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-20" y="1420" as="sourcePoint" />
+            <mxPoint x="150" y="1420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-77" value="call" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-400" y="1472" as="sourcePoint" />
+            <mxPoint x="810" y="1472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZD-_2Gyi8pyLNKkeNc0-79" value="sendEmail()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=13;fontStyle=2;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-400" y="1530" as="sourcePoint" />
+            <mxPoint x="-210" y="1530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
